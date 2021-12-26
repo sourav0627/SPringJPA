@@ -70,11 +70,11 @@ public class EmployeeController {
         employeeService.deleteDataByID(empId);
         return "Delete Data Succesfully";
     }
-    @DeleteMapping("/deletealldata")
+    /*@DeleteMapping("/deletealldata")
     public  String deleteAllData()
     {
         employeeService.deleteAllData();
         return "all data delete succesfully";
 
-    }
+    }*/
 }
